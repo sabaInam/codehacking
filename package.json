@@ -5,8 +5,14 @@
     "dev": "gulp watch"
   },
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "bootstrap-sass": "^3.4.0",
     "gulp": "^3.9.1",
-    "laravel-elixir": "^5.0.0",
-    "bootstrap-sass": "^3.0.0"
+    "gulp-sass": "^4.0.2",
+    "laravel-elixir": "^5.0.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.11.0"
   }
 }
