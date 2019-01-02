@@ -336,7 +336,7 @@
                 @yield('content')
             </div>
             <!-- /.col-lg-12 -->
-            <h1>admin</h1>
+            
         </div>
         <!-- /.row -->
     </div>
