@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+ Route::get('/', function () {
+     return view('welcome');
 });
 
 Route::auth();
@@ -27,4 +27,24 @@ Route::get('admin', function(){
  
 });
 
+
+
+
+ //Route::group(['middleware' => 'admin'], function(){
+
+
 Route::resource('admin/users', 'AdminUsersController');
+
+Route::resource('admin/posts', 'AdminPostsController');
+
+
+
+
+//});
+
+
+
+
+ 
+
+
